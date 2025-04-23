@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.outer{
+    height: 100vh;
+    background:linear-gradient(185deg , rgb(68, 246, 246) , rgb(41, 237, 41));
+    padding: 5px;
+}
+.todo-app{
+    align-items: center;
+    padding: 20px 30px ;
+    width: 70vh;
+    min-height: 40vh;
+    height: auto; /* Let it size naturally, or */
+    max-height: 60vh; /* optional limit */
+    overflow: hidden;
+    background-color: white;
+    border-radius: 5px; 
+    margin: 100px auto; 
+}
+.todo-app:hover{
+    box-shadow: 4px 5px 6px;
+
+}
+.ip{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(235, 185, 124);
+    border-radius: 10px;
+    padding-left: 20px;
+    
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+button{
+    font-size: large;
+    background: rgb(106, 233, 106);
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgb(18, 243, 2);
+    width: 80px;
+}
+button:hover{
+    background-color: rgb(19, 240, 27);
+    animation-duration: 0.5s;
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+#list-container {
+    max-height: 200px; /* or any value that fits your layout */
+    overflow-y: auto;
+    margin-top: 10px;
+    padding-right: 10px; /* prevent content from hiding under scrollbar */
+}
+
+ul li::before{
+    content: '';
+    position:absolute   ;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 8px;
+    left: 16px;
+
+
+}
+
+ul li.checked{
+    color: #5555;
+    text-decoration: line-through;
+
+}
+ul li.checked::before{
+    color: #666;
+    background-image: url(images/checked.png);
+
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px ;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #ed0404;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background-color: #e9b4b4;
+    transition-duration: 0.3s; 
+}
+
+#clear-all{
+    float: right;
+    font-size:small ; 
+    background-color: antiquewhite;
+    width: 80px;
+}
+#clear-all :hover{
+    color: #ed0404;
+    font-size:x-small;
+    transition-duration: 0.3s; 
+    
+}
+
+
+
