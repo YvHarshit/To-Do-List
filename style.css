@@ -14,7 +14,7 @@
     padding: 20px 30px ;
     width: 90vh;
     min-height: 40vh;
-     height: 50vh; /* Let it size naturally, or */
+    height: 50vh; /* Let it size naturally, or */
     /* max-height: 60vh; optional limit */
     overflow: hidden;
     background-color: white;
@@ -35,7 +35,7 @@
     
 }
 input{
-    flex: 1;
+    /* flex: 1; */
     border: none;
     outline: none;
     background: transparent;
@@ -57,7 +57,7 @@ ul li{
     list-style: none;
     font-size: 17px;
     padding: 12px 8px 12px 50px;
-    user-select: none;
+    /* user-select: none; */
     cursor: pointer;
     position: relative;
 }
@@ -65,6 +65,7 @@ ul li{
 #list-container {
     max-height: 200px; /* or any value that fits your layout */
     overflow-y: auto;
+    overflow-x: auto;
     margin-top: 10px;
     padding-right: 10px; /* prevent content from hiding under scrollbar */
 }
