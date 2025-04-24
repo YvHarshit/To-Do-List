@@ -14,8 +14,8 @@
     padding: 20px 30px ;
     width: 70vh;
     min-height: 40vh;
-    height: auto; /* Let it size naturally, or */
-    max-height: 60vh; /* optional limit */
+     height: 50vh; /* Let it size naturally, or */
+    /* max-height: 60vh; optional limit */
     overflow: hidden;
     background-color: white;
     border-radius: 5px; 
