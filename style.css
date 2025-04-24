@@ -12,7 +12,7 @@
 .todo-app{
     align-items: center;
     padding: 20px 30px ;
-    width: 70vh;
+    width: 90vh;
     min-height: 40vh;
      height: 50vh; /* Let it size naturally, or */
     /* max-height: 60vh; optional limit */
