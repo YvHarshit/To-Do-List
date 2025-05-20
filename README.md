@@ -1,4 +1,4 @@
-# To-Do-List
+# TaskNova – Advanced To-Do Web Application
 
 📌 Features
 ✅ Add new tasks
