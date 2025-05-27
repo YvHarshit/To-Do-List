@@ -1,6 +1,7 @@
 # TaskNova – Advanced To-Do Web Application
 
-📌 Features.
+📌 Features:-   
+
 ✅ Add new tasks.
 ✏ Edit tasks by double-clicking on them.
 ☑ Mark tasks as completed.
