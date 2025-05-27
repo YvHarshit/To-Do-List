@@ -1,15 +1,15 @@
 # TaskNova – Advanced To-Do Web Application
 
-📌 Features
-✅ Add new tasks
-✏ Edit tasks by double-clicking on them
-☑ Mark tasks as completed
-❌ Delete individual tasks
-🗑 Clear all tasks at once
-💾 Data persistence using Local Storage
-⌨ Keyboard support (Press Enter to add task)
-🌈 Responsive and user-friendly UI
-🖼 Custom icons for checked/unchecked tasks
+📌 Features.
+✅ Add new tasks.
+✏ Edit tasks by double-clicking on them.
+☑ Mark tasks as completed.
+❌ Delete individual tasks.
+🗑 Clear all tasks at once.
+💾 Data persistence using Local Storage.
+⌨ Keyboard support (Press Enter to add task),
+🌈 Responsive and user-friendly UI.
+🖼 Custom icons for checked/unchecked tasks.
 
 🧠 How It Works
 -> HTML (index.html)
